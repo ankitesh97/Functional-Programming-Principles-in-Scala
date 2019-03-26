@@ -1,0 +1,60 @@
+[0m[[0minfo[0m] [0m[32mAnagramsSuite:[0m[0m
+[0m[[0minfo[0m] [0m[32m- wordOccurrences: abcd[0m[0m
+[0m[[0minfo[0m] [0m[32m- wordOccurrences: Robert[0m[0m
+[0m[[0minfo[0m] [0m[32m- sentenceOccurrences: abcd e[0m[0m
+[0m[[0minfo[0m] [0m[32m- dictionaryByOccurrences.get: eat[0m[0m
+[0m[[0minfo[0m] [0m[32m- word anagrams: married[0m[0m
+[0m[[0minfo[0m] [0m[32m- word anagrams: player[0m[0m
+[0m[[0minfo[0m] [0m[32m- subtract: lard - r[0m[0m
+[0m[[0minfo[0m] [0m[31m- combinations: [] *** FAILED ***[0m[0m
+[0m[[0minfo[0m] [0m[31m  java.lang.UnsupportedOperationException: tail of empty list[0m[0m
+[0m[[0minfo[0m] [0m[31m  at scala.collection.immutable.Nil$.tail(List.scala:433)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at scala.collection.immutable.Nil$.tail(List.scala:428)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at forcomp.Anagrams$.combinations(Anagrams.scala:86)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at forcomp.AnagramsSuite$$anonfun$8.apply$mcV$sp(AnagramsSuite.scala:51)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at forcomp.AnagramsSuite$$anonfun$8.apply(AnagramsSuite.scala:51)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at forcomp.AnagramsSuite$$anonfun$8.apply(AnagramsSuite.scala:51)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.Transformer$$anonfun$apply$1.apply$mcV$sp(Transformer.scala:22)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.OutcomeOf$class.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0minfo[0m] [0m[31m  ...[0m[0m
+[0m[[0minfo[0m] [0m[31m- combinations: abba *** FAILED ***[0m[0m
+[0m[[0minfo[0m] [0m[31m  java.lang.UnsupportedOperationException: tail of empty list[0m[0m
+[0m[[0minfo[0m] [0m[31m  at scala.collection.immutable.Nil$.tail(List.scala:433)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at scala.collection.immutable.Nil$.tail(List.scala:428)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at forcomp.Anagrams$.combinations(Anagrams.scala:86)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at forcomp.Anagrams$.combinations(Anagrams.scala:86)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at forcomp.Anagrams$.combinations(Anagrams.scala:86)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at forcomp.AnagramsSuite$$anonfun$9.apply$mcV$sp(AnagramsSuite.scala:67)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at forcomp.AnagramsSuite$$anonfun$9.apply(AnagramsSuite.scala:54)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at forcomp.AnagramsSuite$$anonfun$9.apply(AnagramsSuite.scala:54)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.Transformer$$anonfun$apply$1.apply$mcV$sp(Transformer.scala:22)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.OutcomeOf$class.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0minfo[0m] [0m[31m  ...[0m[0m
+[0m[[0minfo[0m] [0m[31m- sentence anagrams: [] *** FAILED ***[0m[0m
+[0m[[0minfo[0m] [0m[31m  java.lang.UnsupportedOperationException: tail of empty list[0m[0m
+[0m[[0minfo[0m] [0m[31m  at scala.collection.immutable.Nil$.tail(List.scala:433)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at scala.collection.immutable.Nil$.tail(List.scala:428)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at forcomp.Anagrams$.combinations(Anagrams.scala:86)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at forcomp.Anagrams$.combinations(Anagrams.scala:86)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at forcomp.Anagrams$.combinations(Anagrams.scala:86)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at forcomp.Anagrams$.combinations(Anagrams.scala:86)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at forcomp.Anagrams$.combinations(Anagrams.scala:86)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at forcomp.Anagrams$.combinations(Anagrams.scala:86)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at forcomp.Anagrams$.combinations(Anagrams.scala:86)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at forcomp.AnagramsSuite$$anonfun$10.apply$mcV$sp(AnagramsSuite.scala:73)[0m[0m
+[0m[[0minfo[0m] [0m[31m  ...[0m[0m
+[0m[[0minfo[0m] [0m[31m- sentence anagrams: Linux rulez *** FAILED ***[0m[0m
+[0m[[0minfo[0m] [0m[31m  java.lang.UnsupportedOperationException: tail of empty list[0m[0m
+[0m[[0minfo[0m] [0m[31m  at scala.collection.immutable.Nil$.tail(List.scala:433)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at scala.collection.immutable.Nil$.tail(List.scala:428)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at forcomp.Anagrams$.combinations(Anagrams.scala:86)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at forcomp.Anagrams$.combinations(Anagrams.scala:86)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at forcomp.Anagrams$.combinations(Anagrams.scala:86)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at forcomp.Anagrams$.combinations(Anagrams.scala:86)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at forcomp.Anagrams$.combinations(Anagrams.scala:86)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at forcomp.Anagrams$.combinations(Anagrams.scala:86)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at forcomp.Anagrams$.combinations(Anagrams.scala:86)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at forcomp.Anagrams$.combinations(Anagrams.scala:86)[0m[0m
+[0m[[0minfo[0m] [0m[31m  ...[0m[0m
